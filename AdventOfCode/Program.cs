@@ -9,12 +9,12 @@ namespace AdventOfCode
         {
             // Day 1
             SonarSweep sweep = new SonarSweep();
-            string[] sweepInput = System.IO.File.ReadAllLines(@"C:\Users\jessi\OneDrive\Desktop\input.txt");
+            string[] sweepInput = System.IO.File.ReadAllLines(@"input\sweepInput.txt");
             Console.WriteLine(sweep.doSweep(sweepInput));
 
             // Day 2
             JourneyCalculator calc = new JourneyCalculator();
-            string[] journeyInput = System.IO.File.ReadAllLines(@"C:\Users\jessi\OneDrive\Desktop\journeyInput.txt");
+            string[] journeyInput = System.IO.File.ReadAllLines(@"input\journeyInput.txt");
             Console.WriteLine(calc.calculatePosition(journeyInput));
         }
     }
